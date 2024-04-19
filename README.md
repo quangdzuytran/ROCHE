@@ -9,6 +9,7 @@ The configuration for the conda environment is available at [```conda.yml```](co
 To run the experiments, use the [```run.py```](run.py) with the following configurations:
 - ```--method roche```: using ROCHE as the method
 - ```--data [DATASET]```: the benchmark dataset
+
 To see all available configurations for each experiment, run the python file with ```-h``` or ```--help```.
 
 ## Acknowledgement
