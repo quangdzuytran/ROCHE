@@ -1,0 +1,12 @@
+name: roche
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pytorch::pytorch=2.0.0
+  - scikit-learn
+  - tqdm
