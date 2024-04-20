@@ -167,8 +167,8 @@ def het_fit_nn(x, y, n_steps=None, seed=711, device='cpu', verbose=False):
 
 
 def roche(x, y, independence_test=False, return_function=False, n_steps=None, device='cpu', verbose=False):
-    """Location Scale Causal Inference (LOCI) for bivariate pairs. By default,
-    the method returns a score for the x -> y causal direction where above 0
+    """Robust estimation of causal heteroscedastic noise models (ROCHE) for bivariate pairs. 
+    By default, the method returns a score for the x -> y causal direction where above 0
     indicates evidence for it and negative values indicate y -> x.
 
     Note: data x, y should be standardized or preprocessed in some way.
